@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import { useEffect } from "react";
 import Teste from "./Test";
+import Test2 from "./Test2";
 
 function App() {
   // const [custosReformas, setCustosReformas] = useState([]);
@@ -16,31 +17,9 @@ function App() {
 
   return (
     <div className="App">
+      {/* <Teste /> */}
 
-      <Teste />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <Test2 />
 
       {/* {qtd.map((un, index) => (
         <input
